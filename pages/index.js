@@ -90,8 +90,9 @@ const Page = () => {
         </BioSection>
         <BioSection>
           <BioYear>2020 to present</BioYear>
-          Currently studying for a bachelor's degree at a private university,
-          Budi Luhur University, an information science study program👨‍💻.
+          Currently studying for a bachelor&apos;s degree at a private
+          university, Budi Luhur University, an information science study
+          program👨‍💻.
         </BioSection>
       </Section>
 
