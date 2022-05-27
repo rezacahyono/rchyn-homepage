@@ -43,7 +43,7 @@ const Page = () => {
             borderWidth={2}
             borderColor={useColorModeValue('blackAlpha.500', 'whiteAlpha.800')}
             borderStyle="solid"
-            maxWidth="150px"
+            maxWidth="100px"
             display="inline-block"
             borderRadius="full"
             src="/images/reza.png"
