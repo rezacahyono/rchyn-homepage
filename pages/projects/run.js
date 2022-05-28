@@ -6,21 +6,21 @@ import Layout from '../../lib/article'
 
 const Project = () => {
   return (
-    <Layout title="Gojek Clone">
+    <Layout title="Run Tracking">
       <Container>
         <Title>
-          Gojek Clone UI <Badge>2022</Badge>
+          Run Tracking <Badge>2021</Badge>
         </Title>
         <P>
-          An app clone from the Indonesian unicorn company, Gojek. This clone is
-          to learn application design in terms of color, size, layout, and
-          sequence.
+          Run the Tracking app, an app to calculate your running distance and
+          calculate possible calories burned. This application project is to
+          fulfill the final semester exam for mobile programming courses.
         </P>
         <List ml={4} my={4}>
           <ListItem>
             <Meta>Source</Meta>
-            <Link href="https://github.com/rezacahyono/GojekClone">
-              https://github.com/rezacahyono/GojekClone
+            <Link href="https://github.com/rezacahyono/runningTrack">
+              https://github.com/rezacahyono/runningTrack
               <ExternalLinkIcon mx="2px" />
             </Link>
           </ListItem>
@@ -30,17 +30,13 @@ const Project = () => {
           </ListItem>
           <ListItem>
             <Meta>Tech</Meta>
-            <span>Kotlin, ViewPager2, Navigation Components, Camerax.</span>
+            <span>
+              Kotlin, Hilt, Room, MPAndroid Chart, Glide, Coroutines, Navigation
+              Components, Google Maps SDK.
+            </span>
           </ListItem>
         </List>
-        <ProjectImage
-          src="/images/contents/banner-gojek.png"
-          alt="Gojek Clone"
-        />
-        <ProjectImage
-          src="/images/contents/banner-gojek_2.png"
-          alt="Gojek Clone"
-        />
+        <ProjectImage src="/images/contents/banner-run.png" alt="Gojek Clone" />
       </Container>
     </Layout>
   )

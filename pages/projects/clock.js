@@ -6,39 +6,41 @@ import Layout from '../../lib/article'
 
 const Project = () => {
   return (
-    <Layout title="Gojek Clone">
+    <Layout title="Digital Clock">
       <Container>
         <Title>
-          Gojek Clone UI <Badge>2022</Badge>
+          Digital Clock <Badge>2020</Badge>
         </Title>
         <P>
-          An app clone from the Indonesian unicorn company, Gojek. This clone is
-          to learn application design in terms of color, size, layout, and
-          sequence.
+          Digital and analog clock into one part. with a beautiful design for
+          the night because with a dark theme.
         </P>
         <List ml={4} my={4}>
           <ListItem>
+            <Meta>Website</Meta>
+            <Link href="https://clock-time.vercel.app/">
+              https://clock-time.vercel.app/
+              <ExternalLinkIcon mx="2px" />
+            </Link>
+          </ListItem>
+          <ListItem>
             <Meta>Source</Meta>
-            <Link href="https://github.com/rezacahyono/GojekClone">
-              https://github.com/rezacahyono/GojekClone
+            <Link href="https://github.com/rezacahyono/clock-time">
+              https://github.com/rezacahyono/clock-time
               <ExternalLinkIcon mx="2px" />
             </Link>
           </ListItem>
           <ListItem>
             <Meta>Platform</Meta>
-            <span>Android.</span>
+            <span>Browser.</span>
           </ListItem>
           <ListItem>
-            <Meta>Tech</Meta>
-            <span>Kotlin, ViewPager2, Navigation Components, Camerax.</span>
+            <Meta>Stack</Meta>
+            <span>Html, Css, Javascript.</span>
           </ListItem>
         </List>
         <ProjectImage
-          src="/images/contents/banner-gojek.png"
-          alt="Gojek Clone"
-        />
-        <ProjectImage
-          src="/images/contents/banner-gojek_2.png"
+          src="/images/contents/banner-clock.png"
           alt="Gojek Clone"
         />
       </Container>

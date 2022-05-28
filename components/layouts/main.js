@@ -2,6 +2,7 @@ import Head from 'next/head'
 import NavBar from '../navbar'
 import { Box, Container } from '@chakra-ui/react'
 import Linka from '../linka'
+import Footer from '../footer'
 
 const Main = ({ children, router }) => {
   return (
@@ -16,6 +17,7 @@ const Main = ({ children, router }) => {
         <Linka />
         {children}
       </Container>
+      <Footer />
     </Box>
   )
 }

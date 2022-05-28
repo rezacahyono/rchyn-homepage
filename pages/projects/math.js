@@ -6,21 +6,20 @@ import Layout from '../../lib/article'
 
 const Project = () => {
   return (
-    <Layout title="Gojek Clone">
+    <Layout title="Math.IO">
       <Container>
         <Title>
-          Gojek Clone UI <Badge>2022</Badge>
+          Math IO <Badge>2022</Badge>
         </Title>
         <P>
-          An app clone from the Indonesian unicorn company, Gojek. This clone is
-          to learn application design in terms of color, size, layout, and
-          sequence.
+          Simple application to calculate Rectangle Square Triangle Circle
+          Parallelogram Rhombus. with a fresh and beautiful design.
         </P>
         <List ml={4} my={4}>
           <ListItem>
             <Meta>Source</Meta>
-            <Link href="https://github.com/rezacahyono/GojekClone">
-              https://github.com/rezacahyono/GojekClone
+            <Link href="https://github.com/rezacahyono/Math.Io">
+              https://github.com/rezacahyono/Math.Io
               <ExternalLinkIcon mx="2px" />
             </Link>
           </ListItem>
@@ -30,15 +29,15 @@ const Project = () => {
           </ListItem>
           <ListItem>
             <Meta>Tech</Meta>
-            <span>Kotlin, ViewPager2, Navigation Components, Camerax.</span>
+            <span>Kotlin, Navigation Components, Circle Image View.</span>
           </ListItem>
         </List>
         <ProjectImage
-          src="/images/contents/banner-gojek.png"
+          src="/images/contents/banner-mathio.png"
           alt="Gojek Clone"
         />
         <ProjectImage
-          src="/images/contents/banner-gojek_2.png"
+          src="/images/contents/banner-math_2.png"
           alt="Gojek Clone"
         />
       </Container>

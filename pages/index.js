@@ -6,13 +6,17 @@ import {
   useColorModeValue,
   Image,
   Button,
-  Link
+  List,
+  ListItem,
+  Link,
+  Icon
 } from '@chakra-ui/react'
 import { ChevronRightIcon } from '@chakra-ui/icons'
 import Section from '../components/section'
 import Paragraph from '../components/paragraph'
 import { BioSection, BioYear } from '../components/bio'
 import Layout from '../lib/article'
+import { IoLogoTwitter, IoLogoInstagram, IoLogoGithub } from 'react-icons/io5'
 
 const Page = () => {
   return (
@@ -86,18 +90,17 @@ const Page = () => {
           </BioSection>
           <BioSection>
             <BioYear>2015</BioYear>
-            Graduated from SMPN 267, South Jakarta🧑‍🎓.
+            Graduated from junior high school in South Jakarta area🧑‍🎓.
           </BioSection>
           <BioSection>
             <BioYear>2018</BioYear>
-            Graduated from SMAN 86, South Jakarta with the Social Sciences study
-            program🧑‍🎓.
+            Graduated from high school in South Jakarta area with social science
+            study program🧑‍🎓.
           </BioSection>
           <BioSection>
-            <BioYear>2020 to present</BioYear>
+            <BioYear>2019 to present</BioYear>
             Currently studying for a bachelor&apos;s degree at a private
-            university, Budi Luhur University, an information science study
-            program👨‍💻.
+            university, taking an information science study program👨‍💻.
           </BioSection>
         </Section>
 
@@ -108,6 +111,49 @@ const Page = () => {
           <Paragraph>
             Art, <Link>Drawing</Link>, Playing Game, <Link>Otomotif</Link>
           </Paragraph>
+        </Section>
+        <Section delay={0.3}>
+          <Heading as="h3" variant="section-title">
+            Social Media
+          </Heading>
+          <List>
+            <ListItem>
+              <Link
+                href="https://www.instagram.com/rezacahyno/"
+                target="_blank"
+              >
+                <Button
+                  variant="ghost"
+                  colorScheme="teal"
+                  leftIcon={<Icon as={IoLogoInstagram} />}
+                >
+                  @rezacahyno
+                </Button>
+              </Link>
+            </ListItem>
+            <ListItem>
+              <Link href="https://twitter.com/rezacahyn" target="_blank">
+                <Button
+                  variant="ghost"
+                  colorScheme="teal"
+                  leftIcon={<Icon as={IoLogoTwitter} />}
+                >
+                  @Rezacahyn
+                </Button>
+              </Link>
+            </ListItem>
+            <ListItem>
+              <Link href="https://github.com/rezacahyono" target="_blank">
+                <Button
+                  variant="ghost"
+                  colorScheme="teal"
+                  leftIcon={<Icon as={IoLogoGithub} />}
+                >
+                  @rezachyno
+                </Button>
+              </Link>
+            </ListItem>
+          </List>
         </Section>
       </Container>
     </Layout>
