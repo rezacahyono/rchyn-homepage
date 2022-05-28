@@ -24,10 +24,11 @@ const Page = () => {
       <Container>
         <Box
           borderRadius={'lg'}
-          bg={useColorModeValue('purple.200', 'purple.500')}
+          bg={useColorModeValue('purple.500', 'purple.200')}
           p={3}
           mb={6}
           align="center"
+          color={useColorModeValue('white', 'black')}
         >
           Hello👋,I&apos;m a junior android developer based in jakarta!
         </Box>
@@ -73,7 +74,7 @@ const Page = () => {
           </Paragraph>
           <Box align="center" my={4}>
             <NextLink href="/projects">
-              <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
+              <Button rightIcon={<ChevronRightIcon />} colorScheme="purple">
                 My Project
               </Button>
             </NextLink>
@@ -106,10 +107,11 @@ const Page = () => {
 
         <Section delay={0.2}>
           <Heading as="h3" variant="section-title">
-            I🤍
+            I💜
           </Heading>
           <Paragraph>
-            Art, <Link>Drawing</Link>, Playing Game, <Link>Otomotif</Link>
+            Art, <Link>Drawing</Link>, Playing Game,
+            <Link> Automotive</Link>.
           </Paragraph>
         </Section>
         <Section delay={0.3}>
@@ -124,7 +126,7 @@ const Page = () => {
               >
                 <Button
                   variant="ghost"
-                  colorScheme="teal"
+                  colorScheme="purple"
                   leftIcon={<Icon as={IoLogoInstagram} />}
                 >
                   @rezacahyno
@@ -135,7 +137,7 @@ const Page = () => {
               <Link href="https://twitter.com/rezacahyn" target="_blank">
                 <Button
                   variant="ghost"
-                  colorScheme="teal"
+                  colorScheme="purple"
                   leftIcon={<Icon as={IoLogoTwitter} />}
                 >
                   @Rezacahyn
@@ -146,7 +148,7 @@ const Page = () => {
               <Link href="https://github.com/rezacahyono" target="_blank">
                 <Button
                   variant="ghost"
-                  colorScheme="teal"
+                  colorScheme="purple"
                   leftIcon={<Icon as={IoLogoGithub} />}
                 >
                   @rezachyno
