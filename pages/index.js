@@ -75,7 +75,7 @@ const Page = () => {
           <Box align="center" my={4}>
             <NextLink href="/projects">
               <Button rightIcon={<ChevronRightIcon />} colorScheme="purple">
-                My Project
+                My Projects
               </Button>
             </NextLink>
           </Box>
@@ -87,15 +87,15 @@ const Page = () => {
           </Heading>
           <BioSection>
             <BioYear>2000</BioYear>
-            Born in Jakarta Selatan👶.
+            Born in South Jakarta👶.
           </BioSection>
           <BioSection>
             <BioYear>2015</BioYear>
-            Graduated from junior high school in South Jakarta area🧑‍🎓.
+            Graduated from junior high school in South Jakarta🧑‍🎓.
           </BioSection>
           <BioSection>
             <BioYear>2018</BioYear>
-            Graduated from high school in South Jakarta area with social science
+            Graduated from high school in South Jakarta with social science
             study program🧑‍🎓.
           </BioSection>
           <BioSection>
