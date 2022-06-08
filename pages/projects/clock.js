@@ -18,14 +18,17 @@ const Project = () => {
         <List ml={4} my={4}>
           <ListItem>
             <Meta>Website</Meta>
-            <Link href="https://clock-time.vercel.app/">
+            <Link href="https://clock-time.vercel.app/" target="_blank">
               https://clock-time.vercel.app/
               <ExternalLinkIcon mx="2px" />
             </Link>
           </ListItem>
           <ListItem>
             <Meta>Source</Meta>
-            <Link href="https://github.com/rezacahyono/clock-time">
+            <Link
+              href="https://github.com/rezacahyono/clock-time"
+              target="_blank"
+            >
               https://github.com/rezacahyono/clock-time
               <ExternalLinkIcon mx="2px" />
             </Link>

@@ -18,7 +18,7 @@ const Project = () => {
         <List ml={4} my={4}>
           <ListItem>
             <Meta>Source</Meta>
-            <Link href="https://github.com/rezacahyono/Math.Io">
+            <Link href="https://github.com/rezacahyono/Math.Io" target="_blank">
               https://github.com/rezacahyono/Math.Io
               <ExternalLinkIcon mx="2px" />
             </Link>
