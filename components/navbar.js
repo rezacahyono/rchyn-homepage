@@ -24,8 +24,8 @@ const LinkItem = ({ href, path, target, children, ...props }) => {
     <NextLink href={href} passHref scroll={false}>
       <Link
         p={2}
-        bg={active ? useColorModeValue('purple.500', 'purple.200') : undefined}
-        color={active ? useColorModeValue('white', '#202023') : inactiveColor}
+        bg={active ? 'grassTeal' : undefined}
+        color={active ? '#202023' : inactiveColor}
         target={target}
         {...props}
         borderRadius={5}
