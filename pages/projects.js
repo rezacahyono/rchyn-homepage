@@ -7,6 +7,7 @@ import thumbMath from '../public/images/contents/banner-mathio.png'
 import thumbClock from '../public/images/contents/banner-clock.png'
 import thumbRun from '../public/images/contents/banner-run.png'
 import thumbTodo from '../public/images/contents/banner-todo.png'
+import thumbRunUI from '../public/images/contents/banner-runui.png'
 import Layout from '../lib/article'
 
 const Projects = () => {
@@ -52,6 +53,15 @@ const Projects = () => {
             <ProjectGridItem id="todo" title="Todo App" thumbnail={thumbTodo}>
               Todo App using jetpack compose for design and implement clean
               architecture.
+            </ProjectGridItem>
+          </Section>
+          <Section delay={0.1}>
+            <ProjectGridItem
+              id="runui"
+              title="Run UI/UX"
+              thumbnail={thumbRunUI}
+            >
+              A simple desing running app, using figma.
             </ProjectGridItem>
           </Section>
         </SimpleGrid>
