@@ -30,7 +30,8 @@ const Page = () => {
           align="center"
           color={useColorModeValue('white', 'black')}
         >
-          Hello👋,I&apos;m a junior android developer based in jakarta!
+          Hello there👋,I&apos;m a junior android developer based in south
+          jakarta!
         </Box>
 
         <Box display={{ md: 'flex' }}>
@@ -127,7 +128,11 @@ const Page = () => {
           </Paragraph>
         </Section>
         <Section delay={0.3}>
-          <Heading as="h3" variant="section-title">
+          <Heading
+            as="h3"
+            variant="section-title"
+            color={useColorModeValue('purple.500', 'purple.200')}
+          >
             Social Media
           </Heading>
           <List>
