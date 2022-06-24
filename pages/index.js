@@ -108,7 +108,7 @@ const Page = () => {
             study program🧑‍🎓.
           </BioSection>
           <BioSection>
-            <BioYear>2019 to present</BioYear>
+            <BioYear>2020 to present</BioYear>
             Currently studying for a bachelor&apos;s degree at a private
             university, taking an information science study program👨‍💻.
           </BioSection>
