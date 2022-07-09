@@ -18,7 +18,10 @@ const Project = () => {
         <List ml={4} my={4}>
           <ListItem>
             <Meta>Source</Meta>
-            <Link href="https://www.figma.com/file/Q2hFi9QVHARkFpNayPqaPU/Running?node-id=201%3A3230">
+            <Link
+              href="https://www.figma.com/file/Q2hFi9QVHARkFpNayPqaPU/Running?node-id=201%3A3230"
+              target="_blank"
+            >
               figma.com/runui
               <ExternalLinkIcon mx="2px" />
             </Link>

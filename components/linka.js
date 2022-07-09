@@ -5,7 +5,7 @@ import thumbLinka from '../public/linka.png'
 const Linka = () => {
   return (
     <Container>
-      <Box flexShrink={0} mt={{ base: 6, md: 0 }} ml={{ md: 6 }} align="center">
+      <Box align="center">
         <Image src={thumbLinka} />
       </Box>
     </Container>
