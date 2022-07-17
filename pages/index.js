@@ -39,7 +39,7 @@ const Page = () => {
             <Heading as="h2" variant={'page-title'}>
               Reza Cahyono
             </Heading>
-            <p>Java, Kotlin, Android, Javascript, Figma </p>
+            <p>Java, Kotlin, Android, Figma </p>
           </Box>
           <Box
             flexShrink={0}
